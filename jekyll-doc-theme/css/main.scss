@@ -5,19 +5,11 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 
-
+@import "../_sass/bootswatch/lumen/_variables.scss";
+@import "../_sass/bootswatch/lumen/_bootswatch.scss";
 
 @import
-  {% if site.bootwatch %}
-    "bootswatch/lumen/variables",
-  {% endif %}
-
   "bootstrap",
-
-  {% if site.bootwatch %}
-    "bootswatch/lumen/bootswatch",
-  {% endif %}
-
   "syntax-highlighting",
   "typeahead"
 ;
