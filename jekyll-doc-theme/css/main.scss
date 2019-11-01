@@ -9,13 +9,13 @@
 
 @import
   {% if site.bootwatch %}
-    "bootswatch/{{site.bootwatch | downcase}}/variables",
+    "bootswatch/lumen/variables",
   {% endif %}
 
   "bootstrap",
 
   {% if site.bootwatch %}
-    "bootswatch/{{site.bootwatch | downcase}}/bootswatch",
+    "bootswatch/lumen/bootswatch",
   {% endif %}
 
   "syntax-highlighting",
