@@ -1,0 +1,31 @@
+Azure Accout
+[
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "3d597e1a-c3b0-4265-ac86-4b4c956e6a9e",
+    "id": "68667c24-f266-44a5-ba84-5ded78261dd7",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "Building Bridge Main",
+    "state": "Enabled",
+    "tenantId": "3d597e1a-c3b0-4265-ac86-4b4c956e6a9e",
+    "user": {
+      "name": "doug@buildingbridge.com",
+      "type": "user"
+    }
+  }
+]
+{
+  "uri":'https://biznetdevelopment.file.core.windows.net/"
+  "query": "devstore?si=devstore-178A0A0D74C&sv=2020-02-10&sig=XLzXSYFInkzUo5MN%2F9SVwXv82OuUmDoBgxu5lJrV0JI%3D&sr=s'
+}
+"primaryEndpoints": {
+      "blob": "https://biznetdevelopment.blob.core.windows.net/",
+      "dfs": "https://biznetdevelopment.dfs.core.windows.net/",
+      "file//:https://biznetdevelopment.file.core.windows.net/",
+      "internetEndpoints": null,
+      "microsoftEndpoints": null,
+      "queue": "https://biznetdevelopment.queue.core.windows.net/",
+      "table": "https://biznetdevelopment.table.core.windows.net/",
+      "web": "https://biznetdevelopment.z22.web.core.windows.net/"
+}
